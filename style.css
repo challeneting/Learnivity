@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html, body {
+  overflow-x: hidden;
+  background-color: #FAF5E4;
+  height: 100%;
+  width: 100%;
+  font-family: 'Crimson Pro', serif;
+  position: relative;
+}
+
+/* Logo */
+.logo{
+  color: #0037F8;
+  text-decoration: underline;
+  font-weight: bold;
+  float: left;
+  font-size: 24px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+/* Navigation Bar */
+.navbar {
+  position: relative;
+  z-index: 999px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-right: 20px;
+}
+
+.navbar li{
+  float: right;
+  width: 150px;
+  margin-top: 25px;
+  list-style: none;
+  text-align: center;
+  font-size: 20px;
+}
+
+.navbar li a{
+  text-decoration: none;
+}
+
+.navbar li a:hover{
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.navbar li .h-link{
+  color:black;
+}
+
+.navbar li .t-link{
+  color:#F86800;
+}
+
+.navbar li ul li a{
+  color:#F86800;
+}
+
+.navbar li .mh-link{
+  color:#125B50;
+}
+
+.navbar li .m-link{
+  color:#FF6363;
+}
+
+/* Dropdown */
+
+.navbar li ul li{
+  display: none;
+}
+
+.navbar li:hover ul li{
+  display: block;
+}
+
+.navbar li ul li:hover{
+  opacity: 0.6;
+  background-color: #FAF5E4;
+}
+
+/* Responsive Code for Navigation Bar */
+/* @media only screen and (max-width: 800px) {
+  .navbar {
+    
+  }
+} */

@@ -1,0 +1,132 @@
+@import "style.css";
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #FAF5E4;
+  font-family: 'Crimson Pro', serif;
+  color: #F8B400;
+}
+
+.title {
+  background-color: transparent;
+  text-align: center;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  position:absolute;
+  margin-top: 90px;
+  padding-bottom: 5px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.title h1{
+  background-color: transparent;
+  
+}
+
+.subtitle {
+  padding-left: 170px;
+  padding-right: 170px;
+  padding-top: 200px;
+  font-size: 22px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.center-body {
+  text-align: center;
+}
+
+form{
+  padding-bottom: 50px;
+}
+
+.flashcard-title .title-input{
+  font-size: 18px;
+  background-color:#FFFFFF;
+  border: 2px solid #F8B400;
+  padding-left: 10px;
+  padding-right: 60px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #F8B400;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #F8B400;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #F8B400;
+}
+
+.flashcard-title ul li{
+  list-style: none;
+}
+
+.flashcard-title ul li h2{
+  display: inline-block;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.flashcard-title ul li .flashcard-input{
+  background-color: #ffffff;
+  color: black;
+  margin: 10px;
+  padding-left: 15px;
+  border-radius: 30px;
+  outline: none;
+  width: 300px;
+  border: 2px solid transparent;
+  height: 200px;
+  font-size: 20px;
+}
+
+.flashcard-title .title-btn{
+  font-size: 16px;
+  color: white;
+  background-color:#F8B400;
+  border: 2px solid #F8B400;
+  border-radius: 25px;
+  margin-left: 10px;
+  padding: 7px;
+}
+
+.flashcard-title .title-btn:hover{
+  color: #E27F0A;
+  background-color:#FFCC47;
+  border: 2px solid #FFCC47;
+  border-radius: 25px;
+  margin-left: 10px;
+  padding: 7px;
+}
+
+.flashcard-title .plus-btn{
+  font-size: 24px;
+  color: white;
+  background-color:#F8B400;
+  border: 2px solid #F8B400;
+  border-radius: 50%;
+  padding-top: 3.5px;
+  padding-bottom: 4.5px;
+  padding-left: 11px;
+  padding-right: 11px;
+}
+
+.flashcard-title .plus-btn:hover{
+  color: #E27F0A;
+  background-color:#FFCC47;
+  border: 2px solid #FFCC47; 
+}

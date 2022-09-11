@@ -1,0 +1,143 @@
+@import "style.css";
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #FAF5E4;
+  font-family: 'Crimson Pro', serif;
+  color: #125B50;
+}
+
+.title {
+  padding-top: 90px;
+  padding-bottom: 5px;
+  font-size: 27px;
+  text-align: center;
+}
+
+.subtitle {
+  padding-top: 5px;
+  font-size: 22px;
+  font-style: italic;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.first h3 {
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 25px;
+}
+
+.first p {
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 18px;
+}
+
+.ADHD {
+  width: 50%;
+  float: right;
+}
+
+.ADHD h3 {
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 25px;
+}
+
+.ADHD p {
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 18px;
+}
+
+.Depression {
+  width: 50%;
+}
+
+.Depression h3 {
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 25px;
+}
+
+.Depression p {
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 18px;
+}
+
+.Anxiety {
+  width: 50%;
+  float: right;
+}
+
+.Anxiety h3 {
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 25px;
+}
+
+.Anxiety p {
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 18px;
+}
+
+.OCD {
+  width: 50%;
+}
+
+.OCD h3 {
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 25px;
+}
+
+.OCD p {
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 18px;
+}
+
+.Sources {
+  width: 50%;
+  float: right;
+}
+
+.Sources h3 {
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 25px;
+}
+
+.Sources a {
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 18px;
+}
+
+.Dyslexia {
+  width: 50%;
+}
+
+.Dyslexia h3 {
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 25px;
+}
+
+.Dyslexia p {
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 18px;
+}

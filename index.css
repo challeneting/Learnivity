@@ -1,0 +1,49 @@
+@import "style.css";
+
+.title {
+  padding-top: 30px;
+  padding-bottom: 5px;
+  font-size: 20px;
+  text-align: left;
+  color: #125B50;
+  padding-left: 100px;
+}
+
+.button {
+  background-color: #F8B400;
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  font-family: 'Crimson Pro', serif;
+  margin: 4px 2px;
+  box-shadow: 0 4px #dcdcdc;
+}
+.button1 {border-radius: 27px;}
+body {background-color:#FAF5E4;}
+.button:hover {
+      background-color:#FF6363;
+      transition: 0.1s;
+  }
+.button:active {
+  background-color: #FF6363;
+  box-shadow: 0 4px #dcdcdc;
+  transform: translateY(4px);
+}
+.align{
+  padding-top: 200px;
+}
+
+.alignbutton{
+  margin-left: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.pink {
+  color: #FF6363;
+  text-decoration: underline;
+}
